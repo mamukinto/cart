@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online store</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+<!-- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ -->
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<header>
+
+<div class="modal">
+<div class="cartModal" id="content">
+	
+	<!-- 	<div class="productline">
+
+			<div class="product-img">
+				<img src="images/product.svg" width="100" height="100">
+			</div>
+
+			<div class="productinfo">
+				<p>Macbook 2020 X 1</p>
+			</div>
+
+			<div class="buttons">
+				<button class="addOneMore">Add</button>
+				<button class="remove">X</button>
+			</div>
+
+		</div>
+
+		<div class="productline">
+
+			<div class="product-img">
+				<img src="images/product.svg" width="100" height="100">
+			</div>
+
+			<div class="productinfo">
+				<p>Macbook 2020 X 1</p>
+			</div>
+
+			<div class="buttons">
+
+				<button class="addOneMore">Add</button>
+				<button class="remove">X</button>
+
+			</div>
+
+		</div> -->
+
+
+
+
+
+
+	<button class="buttonbuy">Buy</button>
+	<button class="buttonclose" onclick="closeCart()">Close</button>
+</div>
+
+</div>
+
+
+
+	<div class="logo-container">
+		<img src="images/logo.png" width="50" height="50">
+	<div class="logo">
+		<h3>Flex-shop</h3>
+	</div>
+	</div>
+
+	
+		<ul class="menu">
+			<li><a class="link1" href="#" onclick="activate1()">Services</a></li>
+			<li><a class="link2" href="#" onclick="activate2()">About us</a></li>
+			<li><a class="link3" href="#" onclick="activate3()">Contact</a></li>
+		</ul>
+		
+		<div class="cart">
+		<img src="images/cart.svg" width="30" height="30" onclick="showCart()">
+		<p id="productnumber">0</p>
+		</div>
+</header>
+
+
+<main>
+	<section class="presentation">
+
+	<div class="info">
+		<div class="info-text">
+			<h1>Macbook 2020</h1>
+			<p>It's a true revolution in computer technology indusrty. Best choice for Students, Bussinessman's and oldman's. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+		<div class="cta">
+
+			<a href="#lol"><button class="other">Show other</button></a>
+			<button class="add" onclick="addMacBook()">Add to cart</button>
+
+		</div>
+
+	</div>
+
+	<div class="product">
+		<img  src="images/product.svg">
+	</div>
+
+</section>
+
+
+<section id="lol" class="products">
+
+
+	<div class="products-gallery">
+		
+
+
+			
+
+	<div class="card">
+			
+			<h3>MSI - super gaming laptop 2021</h3>
+			<img src="images/msi.png" alt="product picture" width="180">
+			<p>These sleek, powerful gaming rigs are powered by the new NVIDIA Turing GPU architecture and the revolutionary RTX platform. RTX graphics bring together real-time ray tracing, artificial intelligence, and programmable shading.</p>
+			<div class="buttons1">
+			<button class="add1" onclick="addMsi()">Add to cart</button>
+			<button class="other1">Details</button>
+			</div>
+		</div>
+
+
+
+
+
+	<div class="card">
+			
+			<h3>Dell - for office wamrs</h3>
+			<img src="images/dell.png" alt="product picture" width="180" style="margin:20px 0;">
+			<p>Showcase your ultimate RGB gaming theme with the new Mystic Light. The illumination now spreads across the keyboard and extends to the unique chassis underglow.</p>
+			<div class="buttons1">
+			<button class="add1" onclick="addDell()">Add to cart</button>
+			<button class="other1">Details</button>
+			</div>
+		</div>
+
+
+
+
+
+	<div class="card">
+			
+			<h3>Lenovo - Super flat 2019</h3>
+			<img src="images/lenovo.png" alt="product picture" width="180" style="margin: 20px 0;">
+			<p>Stop losing games to lag with Killer DoubleShot Pro. Protect and prioritize networking traffic while preventing lag spikes to always game at your best. Gamers can easily manage bandwidth for each application with the user-friendly Killer Control Center.</p>
+			<div class="buttons1">
+			<button class="add1" onclick="addLenovo()">Add to cart</button>
+			<button class="other1">Details</button>
+			</div>
+
+		</div>
+
+
+	
+
+</section>
+
+
+
+
+
+
+
+</main>
+
+
+
+
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="script1.js"></script>
+<script type="text/javascript" src="script2.js"></script>
+<script type="text/javascript" src="script3.js"></script>
+</body>
+</html>
+
+
